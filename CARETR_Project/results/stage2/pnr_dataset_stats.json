@@ -1,0 +1,38 @@
+{
+  "n_images": 761,
+  "split_counts": {
+    "train": 676,
+    "valid": 85
+  },
+  "skipped_no_json": [],
+  "total_grids": 36528,
+  "noise_grids": 1124,
+  "noise_rate": 0.030771,
+  "stage1_grid_acc": 95.899,
+  "per_class": {
+    "grid": {
+      "n": 214,
+      "pred_crack": 4297,
+      "true_crack": 4074,
+      "noise": 416,
+      "grid_correct": 9663,
+      "grid_total": 10272
+    },
+    "horizontal": {
+      "n": 338,
+      "pred_crack": 3257,
+      "true_crack": 2964,
+      "noise": 395,
+      "grid_correct": 15727,
+      "grid_total": 16224
+    },
+    "vertical": {
+      "n": 209,
+      "pred_crack": 1952,
+      "true_crack": 1718,
+      "noise": 313,
+      "grid_correct": 9640,
+      "grid_total": 10032
+    }
+  }
+}

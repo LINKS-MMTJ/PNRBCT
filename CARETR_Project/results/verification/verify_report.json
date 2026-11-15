@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-05 20:28:49",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "part1_data": {
+    "train": {
+      "F_on_disk": 24702,
+      "T_on_disk": 7746,
+      "total_on_disk": 32448,
+      "T_used": 7746,
+      "F_used": 7746,
+      "total_used": 15492
+    },
+    "valid": {
+      "F_on_disk": 3070,
+      "T_on_disk": 1010,
+      "total_on_disk": 4080,
+      "T_used": 1010,
+      "F_used": 1010,
+      "total_used": 2020
+    },
+    "test": {
+      "F_on_disk": 3139,
+      "T_on_disk": 893,
+      "total_on_disk": 4032,
+      "T_used": 893,
+      "F_used": 893,
+      "total_used": 1786
+    }
+  },
+  "part2_stage1": {
+    "1:1 平衡": {
+      "train": {
+        "n": 15492,
+        "acc": 96.6305,
+        "F1_noncrack": 0.9665,
+        "F1_crack": 0.9661,
+        "macro_f1": 0.9663,
+        "cm": [
+          [
+            7534,
+            212
+          ],
+          [
+            310,
+            7436
+          ]
+        ]
+      },
+      "valid": {
+        "n": 2020,
+        "acc": 94.802,
+        "F1_noncrack": 0.9486,
+        "F1_crack": 0.9474,
+        "macro_f1": 0.948,
+        "cm": [
+          [
+            969,
+            41
+          ],
+          [
+            64,
+            946
+          ]
+        ]
+      },
+      "test": {
+        "n": 1786,
+        "acc": 94.1209,
+        "F1_noncrack": 0.9425,
+        "F1_crack": 0.9399,
+        "macro_f1": 0.9412,
+        "cm": [
+          [
+            860,
+            33
+          ],
+          [
+            72,
+            821
+          ]
+        ]
+      }
+    }
+  },
+  "part3_pnr": {
+    "definitions": "见脚本 docstring; FN 用可操作集口径, 误删率分母=全部真实裂纹格",
+    "n_grids": 36528,
+    "n_true_crack": 8756,
+    "n_actionable": 9506,
+    "n_gate": 1399,
+    "n_noise_in_actionable": 1124,
+    "n_removed_total": 693,
+    "noise_precision": 0.8644,
+    "noise_recall": 0.5329,
+    "noise_f1": 0.6593,
+    "crack_misdetection_precision": 0.1356,
+    "crack_misdetection_recall": 0.0107,
+    "crack_misdetection_f1": 0.0199,
+    "true_crack_removed_%": 1.0735,
+    "grid_acc_before_%": 95.899,
+    "grid_acc_after_%": 97.2815
+  }
+}

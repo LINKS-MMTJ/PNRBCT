@@ -1,0 +1,19 @@
+{
+  "split": "valid",
+  "n_images": 85,
+  "n_grids": 4080,
+  "n_true_crack": 1010,
+  "n_actionable": 1088,
+  "n_gate": 185,
+  "n_noise_in_actionable": 142,
+  "n_removed": 84,
+  "noise_precision": 0.7024,
+  "noise_recall": 0.4155,
+  "noise_f1": 0.5221,
+  "crack_mis_precision": 0.2976,
+  "crack_mis_recall": 0.0248,
+  "crack_mis_f1": 0.0457,
+  "true_crack_removed_%": 2.4752,
+  "grid_acc_before_%": 94.951,
+  "grid_acc_after_%": 95.7843
+}

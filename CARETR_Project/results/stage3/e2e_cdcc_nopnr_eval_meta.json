@@ -1,0 +1,69 @@
+{
+  "arm": "nopnr",
+  "arch": "cdcc",
+  "date": "2026-10-26 17:34:50",
+  "cache": "stage1_g_cache_448_bal.pt",
+  "cdcc_model": "best_cdcc_nopnr.pth",
+  "pnr_model": null,
+  "n_images": 150,
+  "acc": 94.0,
+  "macro_f1": 0.9402,
+  "per_class_acc": {
+    "grid": 94.0,
+    "horizontal": 98.0,
+    "vertical": 90.0
+  },
+  "confusion_matrix": [
+    [
+      47,
+      1,
+      2
+    ],
+    [
+      1,
+      49,
+      0
+    ],
+    [
+      5,
+      0,
+      45
+    ]
+  ],
+  "classification_report": {
+    "grid": {
+      "precision": 0.8867924528301887,
+      "recall": 0.94,
+      "f1-score": 0.912621359223301,
+      "support": 50.0
+    },
+    "horizontal": {
+      "precision": 0.98,
+      "recall": 0.98,
+      "f1-score": 0.98,
+      "support": 50.0
+    },
+    "vertical": {
+      "precision": 0.9574468085106383,
+      "recall": 0.9,
+      "f1-score": 0.9278350515463918,
+      "support": 50.0
+    },
+    "accuracy": 0.94,
+    "macro avg": {
+      "precision": 0.941413087113609,
+      "recall": 0.94,
+      "f1-score": 0.940152136923231,
+      "support": 150.0
+    },
+    "weighted avg": {
+      "precision": 0.941413087113609,
+      "recall": 0.94,
+      "f1-score": 0.940152136923231,
+      "support": 150.0
+    }
+  },
+  "time_per_image_ms": 1.2409,
+  "time_std_ms": 0.6106,
+  "pnr_removed_grids": null
+}

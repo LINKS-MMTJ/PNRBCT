@@ -1,0 +1,258 @@
+{
+  "model": "caret_s0_448_bal_best.pth",
+  "date": "2026-10-05 17:25:55",
+  "data_root": "data/grids_448",
+  "threshold": 0.5,
+  "note": "Stage1 在图片级重划(final_shuju_v2)上的评估; train/valid/test 三套图片互不重叠; 阈值扫描在 valid 上进行(未使用 test)",
+  "results": [
+    {
+      "set": "train",
+      "total": 15492,
+      "correct": 14970,
+      "acc": 96.6305,
+      "F_acc": 97.2631,
+      "T_acc": 95.9979,
+      "confusion_matrix": [
+        [
+          7534,
+          212
+        ],
+        [
+          310,
+          7436
+        ]
+      ],
+      "classification_report": {
+        "F": {
+          "precision": 0.9604793472718001,
+          "recall": 0.9726310353730958,
+          "f1-score": 0.9665169980756896,
+          "support": 7746.0
+        },
+        "T": {
+          "precision": 0.9722803347280334,
+          "recall": 0.9599793441776401,
+          "f1-score": 0.9660906846823438,
+          "support": 7746.0
+        },
+        "accuracy": 0.966305189775368,
+        "macro avg": {
+          "precision": 0.9663798409999167,
+          "recall": 0.966305189775368,
+          "f1-score": 0.9663038413790167,
+          "support": 15492.0
+        },
+        "weighted avg": {
+          "precision": 0.9663798409999167,
+          "recall": 0.966305189775368,
+          "f1-score": 0.9663038413790167,
+          "support": 15492.0
+        }
+      },
+      "n_F_noncrack": 7746,
+      "n_T_crack": 7746,
+      "F_T_ratio": 1.0,
+      "all_F_baseline_acc": 50.0,
+      "crack_precision": 0.9723,
+      "crack_recall": 0.96,
+      "crack_f1": 0.9661,
+      "macro_f1": 0.9663
+    },
+    {
+      "set": "valid",
+      "total": 2020,
+      "correct": 1915,
+      "acc": 94.802,
+      "F_acc": 95.9406,
+      "T_acc": 93.6634,
+      "confusion_matrix": [
+        [
+          969,
+          41
+        ],
+        [
+          64,
+          946
+        ]
+      ],
+      "classification_report": {
+        "F": {
+          "precision": 0.9380445304937076,
+          "recall": 0.9594059405940594,
+          "f1-score": 0.9486049926578561,
+          "support": 1010.0
+        },
+        "T": {
+          "precision": 0.9584599797365755,
+          "recall": 0.9366336633663367,
+          "f1-score": 0.9474211316975463,
+          "support": 1010.0
+        },
+        "accuracy": 0.948019801980198,
+        "macro avg": {
+          "precision": 0.9482522551151416,
+          "recall": 0.948019801980198,
+          "f1-score": 0.9480130621777012,
+          "support": 2020.0
+        },
+        "weighted avg": {
+          "precision": 0.9482522551151416,
+          "recall": 0.948019801980198,
+          "f1-score": 0.9480130621777012,
+          "support": 2020.0
+        }
+      },
+      "n_F_noncrack": 1010,
+      "n_T_crack": 1010,
+      "F_T_ratio": 1.0,
+      "all_F_baseline_acc": 50.0,
+      "crack_precision": 0.9585,
+      "crack_recall": 0.9366,
+      "crack_f1": 0.9474,
+      "macro_f1": 0.948
+    },
+    {
+      "set": "test",
+      "total": 1786,
+      "correct": 1681,
+      "acc": 94.1209,
+      "F_acc": 96.3046,
+      "T_acc": 91.9373,
+      "confusion_matrix": [
+        [
+          860,
+          33
+        ],
+        [
+          72,
+          821
+        ]
+      ],
+      "classification_report": {
+        "F": {
+          "precision": 0.9227467811158798,
+          "recall": 0.9630459126539753,
+          "f1-score": 0.9424657534246575,
+          "support": 893.0
+        },
+        "T": {
+          "precision": 0.9613583138173302,
+          "recall": 0.9193729003359462,
+          "f1-score": 0.9398969662278192,
+          "support": 893.0
+        },
+        "accuracy": 0.9412094064949608,
+        "macro avg": {
+          "precision": 0.942052547466605,
+          "recall": 0.9412094064949608,
+          "f1-score": 0.9411813598262384,
+          "support": 1786.0
+        },
+        "weighted avg": {
+          "precision": 0.942052547466605,
+          "recall": 0.9412094064949608,
+          "f1-score": 0.9411813598262383,
+          "support": 1786.0
+        }
+      },
+      "n_F_noncrack": 893,
+      "n_T_crack": 893,
+      "F_T_ratio": 1.0,
+      "all_F_baseline_acc": 50.0,
+      "crack_precision": 0.9614,
+      "crack_recall": 0.9194,
+      "crack_f1": 0.9399,
+      "macro_f1": 0.9412
+    }
+  ],
+  "threshold_sweep": [
+    {
+      "thr": 0.05,
+      "acc": 65.5446,
+      "crack_p": 0.5925,
+      "crack_r": 0.996,
+      "crack_f1": 0.743,
+      "macro_f1": 0.6102
+    },
+    {
+      "thr": 0.1,
+      "acc": 91.8317,
+      "crack_p": 0.8703,
+      "crack_r": 0.9832,
+      "crack_f1": 0.9233,
+      "macro_f1": 0.918
+    },
+    {
+      "thr": 0.2,
+      "acc": 94.3069,
+      "crack_p": 0.9234,
+      "crack_r": 0.9663,
+      "crack_f1": 0.9444,
+      "macro_f1": 0.943
+    },
+    {
+      "thr": 0.3,
+      "acc": 94.9505,
+      "crack_p": 0.9425,
+      "crack_r": 0.9574,
+      "crack_f1": 0.9499,
+      "macro_f1": 0.9495
+    },
+    {
+      "thr": 0.4,
+      "acc": 94.703,
+      "crack_p": 0.9475,
+      "crack_r": 0.9465,
+      "crack_f1": 0.947,
+      "macro_f1": 0.947
+    },
+    {
+      "thr": 0.5,
+      "acc": 94.802,
+      "crack_p": 0.9585,
+      "crack_r": 0.9366,
+      "crack_f1": 0.9474,
+      "macro_f1": 0.948
+    },
+    {
+      "thr": 0.6,
+      "acc": 94.4059,
+      "crack_p": 0.9687,
+      "crack_r": 0.9178,
+      "crack_f1": 0.9426,
+      "macro_f1": 0.944
+    },
+    {
+      "thr": 0.7,
+      "acc": 93.7624,
+      "crack_p": 0.9742,
+      "crack_r": 0.899,
+      "crack_f1": 0.9351,
+      "macro_f1": 0.9375
+    },
+    {
+      "thr": 0.8,
+      "acc": 92.6733,
+      "crack_p": 0.9832,
+      "crack_r": 0.8683,
+      "crack_f1": 0.9222,
+      "macro_f1": 0.9265
+    },
+    {
+      "thr": 0.9,
+      "acc": 89.505,
+      "crack_p": 0.989,
+      "crack_r": 0.799,
+      "crack_f1": 0.8839,
+      "macro_f1": 0.8941
+    },
+    {
+      "thr": 0.95,
+      "acc": 69.3069,
+      "crack_p": 0.9949,
+      "crack_r": 0.3881,
+      "crack_f1": 0.5584,
+      "macro_f1": 0.6616
+    }
+  ]
+}

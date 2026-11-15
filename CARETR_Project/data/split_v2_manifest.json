@@ -1,0 +1,3429 @@
+{
+  "note": "Image-level split: train/valid/test are disjoint; the 150 e2e images are not part of the split.",
+  "source_root": "data/images",
+  "seed": 42,
+  "ratios": {
+    "train": 0.8,
+    "valid": 0.1,
+    "test": 0.1
+  },
+  "grid": {
+    "rows": 6,
+    "cols": 8,
+    "cell_size": 448
+  },
+  "crop": "Top-left aligned; discard the remainder that does not fill a full cell.",
+  "stats": {
+    "train": {
+      "images": 676,
+      "T": 7746,
+      "F": 24702,
+      "T_F_ratio": 3.189,
+      "balanced_total": 15492
+    },
+    "valid": {
+      "images": 85,
+      "T": 1010,
+      "F": 3070,
+      "T_F_ratio": 3.04,
+      "balanced_total": 2020
+    },
+    "test": {
+      "images": 84,
+      "T": 893,
+      "F": 3139,
+      "T_F_ratio": 3.515,
+      "balanced_total": 1786
+    }
+  },
+  "missing_json": [],
+  "split": {
+    "train": [
+      {
+        "cls": "grid",
+        "id": "annotated_grid_1"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_2"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_3"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_5"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_6"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_7"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_8"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_12"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_13"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_14"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_15"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_16"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_17"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_18"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_19"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_20"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_21"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_22"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_23"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_24"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_27"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_28"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_30"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_32"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_33"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_34"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_35"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_36"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_37"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_39"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_40"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_41"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_44"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_45"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_46"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_47"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_48"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_49"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_50"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_51"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_52"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_54"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_55"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_56"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_57"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_61"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_63"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_64"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_66"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_67"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_68"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_69"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_70"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_71"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_72"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_75"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_76"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_77"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_78"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_79"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_80"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_81"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_82"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_83"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_85"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_86"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_87"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_88"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_89"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_91"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_92"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_94"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_95"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_96"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_97"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_98"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_101"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_102"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_103"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_104"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_106"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_107"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_108"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_109"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_110"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_111"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_112"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_114"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_115"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_116"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_117"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_118"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_119"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_120"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_121"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_122"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_123"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_124"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_125"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_128"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_129"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_131"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_132"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_134"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_135"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_136"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_137"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_138"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_139"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_140"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_143"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_144"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_145"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_146"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_149"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_150"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_151"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_152"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_153"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_154"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_155"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_156"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_158"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_159"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_160"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_161"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_162"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_163"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_164"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_165"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_168"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_169"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_170"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_171"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_173"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_174"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_175"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_176"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_177"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_178"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_179"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_180"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_181"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_182"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_183"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_184"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_186"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_187"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_188"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_189"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_190"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_191"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_192"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_193"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_194"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_196"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_197"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_198"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_199"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_200"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_201"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_202"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_203"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_204"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_207"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_209"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_210"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_211"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_212"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_213"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_214"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_215"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_217"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_218"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_220"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_221"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_222"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_223"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_224"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_225"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_226"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_227"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_228"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_231"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_232"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_234"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_235"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_236"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_237"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_238"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_1"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_3"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_4"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_5"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_6"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_7"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_9"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_10"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_11"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_12"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_13"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_14"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_15"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_16"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_17"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_18"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_19"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_20"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_22"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_23"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_24"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_26"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_27"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_28"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_29"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_31"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_32"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_33"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_34"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_36"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_37"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_39"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_40"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_42"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_43"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_44"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_45"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_46"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_47"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_48"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_49"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_50"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_51"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_52"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_54"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_55"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_56"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_57"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_58"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_59"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_60"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_61"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_62"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_63"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_64"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_65"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_67"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_68"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_71"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_72"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_73"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_74"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_75"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_76"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_77"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_80"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_82"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_84"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_85"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_86"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_89"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_91"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_92"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_93"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_95"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_96"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_97"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_98"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_101"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_104"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_105"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_106"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_107"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_108"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_109"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_110"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_112"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_114"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_117"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_118"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_119"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_120"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_121"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_123"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_124"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_125"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_126"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_127"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_128"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_129"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_134"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_135"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_136"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_137"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_139"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_140"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_141"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_142"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_143"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_144"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_145"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_146"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_147"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_148"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_149"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_150"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_151"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_153"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_154"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_155"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_156"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_157"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_158"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_159"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_160"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_161"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_162"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_163"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_166"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_167"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_168"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_169"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_170"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_171"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_173"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_174"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_175"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_177"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_178"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_179"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_180"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_181"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_182"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_183"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_184"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_185"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_186"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_188"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_189"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_190"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_191"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_192"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_193"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_194"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_195"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_197"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_198"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_200"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_202"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_203"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_204"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_205"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_206"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_207"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_208"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_209"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_210"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_211"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_212"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_213"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_214"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_216"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_217"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_219"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_220"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_221"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_222"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_224"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_225"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_226"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_227"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_228"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_229"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_230"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_232"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_233"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_234"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_235"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_236"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_237"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_238"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_239"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_240"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_241"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_243"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_244"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_245"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_246"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_247"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_248"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_250"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_251"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_252"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_253"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_254"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_255"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_256"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_257"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_258"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_259"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_261"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_262"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_263"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_264"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_266"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_267"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_268"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_269"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_272"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_274"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_276"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_277"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_278"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_279"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_281"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_282"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_284"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_285"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_286"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_287"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_289"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_290"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_292"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_294"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_295"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_296"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_298"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_299"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_301"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_302"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_304"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_305"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_306"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_308"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_310"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_311"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_312"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_313"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_314"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_315"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_316"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_317"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_318"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_319"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_320"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_321"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_322"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_323"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_324"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_325"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_326"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_327"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_328"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_329"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_331"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_334"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_335"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_337"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_338"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_340"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_341"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_342"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_343"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_344"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_345"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_347"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_348"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_351"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_352"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_354"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_355"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_356"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_357"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_358"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_360"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_361"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_362"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_363"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_364"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_365"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_366"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_367"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_368"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_369"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_370"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_371"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_372"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_373"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_374"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_375"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_1"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_2"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_3"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_4"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_5"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_6"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_7"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_8"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_9"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_10"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_11"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_12"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_13"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_14"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_15"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_18"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_19"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_22"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_23"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_24"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_25"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_26"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_27"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_28"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_30"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_31"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_32"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_33"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_34"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_35"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_36"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_37"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_38"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_39"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_40"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_42"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_43"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_45"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_46"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_48"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_49"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_50"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_51"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_52"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_53"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_54"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_55"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_56"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_57"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_59"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_60"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_62"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_64"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_65"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_66"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_67"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_68"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_69"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_71"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_74"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_75"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_76"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_77"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_79"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_80"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_81"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_82"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_84"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_85"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_86"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_87"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_88"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_89"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_90"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_91"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_93"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_94"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_95"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_96"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_98"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_99"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_100"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_101"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_102"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_103"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_106"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_107"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_108"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_109"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_110"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_111"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_112"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_113"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_114"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_115"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_117"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_118"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_122"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_123"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_124"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_125"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_126"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_127"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_128"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_129"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_130"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_132"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_134"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_135"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_136"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_140"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_142"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_143"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_145"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_148"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_149"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_151"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_152"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_153"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_154"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_155"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_156"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_158"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_159"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_162"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_163"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_164"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_165"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_166"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_167"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_168"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_169"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_170"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_171"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_172"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_174"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_175"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_176"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_177"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_178"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_180"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_181"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_182"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_183"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_185"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_186"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_188"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_189"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_191"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_193"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_194"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_195"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_196"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_197"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_198"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_199"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_200"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_201"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_202"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_204"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_205"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_206"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_207"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_209"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_210"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_211"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_212"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_213"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_214"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_215"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_216"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_217"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_218"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_219"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_220"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_221"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_222"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_223"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_224"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_225"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_226"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_227"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_228"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_229"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_231"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_232"
+      }
+    ],
+    "valid": [
+      {
+        "cls": "grid",
+        "id": "annotated_grid_4"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_42"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_43"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_53"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_59"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_74"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_84"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_90"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_105"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_113"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_126"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_127"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_130"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_133"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_147"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_148"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_157"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_166"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_172"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_205"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_219"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_229"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_230"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_233"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_2"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_8"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_30"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_35"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_38"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_41"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_53"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_69"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_78"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_81"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_87"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_88"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_90"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_100"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_111"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_115"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_130"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_164"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_165"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_187"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_196"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_218"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_223"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_231"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_260"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_265"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_270"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_288"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_293"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_307"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_309"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_332"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_333"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_336"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_339"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_350"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_353"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_359"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_16"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_17"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_21"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_41"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_58"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_61"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_73"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_83"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_116"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_119"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_120"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_131"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_133"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_137"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_138"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_146"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_157"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_160"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_161"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_173"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_179"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_190"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_208"
+      }
+    ],
+    "test": [
+      {
+        "cls": "grid",
+        "id": "annotated_grid_9"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_10"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_11"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_25"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_26"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_29"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_31"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_38"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_58"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_60"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_62"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_65"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_73"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_93"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_99"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_100"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_141"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_142"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_167"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_185"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_195"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_206"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_208"
+      },
+      {
+        "cls": "grid",
+        "id": "annotated_grid_216"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_21"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_25"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_66"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_70"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_79"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_83"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_94"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_99"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_102"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_103"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_113"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_116"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_122"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_131"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_132"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_133"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_138"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_152"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_172"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_176"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_199"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_201"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_215"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_242"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_249"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_271"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_273"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_275"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_280"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_283"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_291"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_297"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_300"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_303"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_330"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_346"
+      },
+      {
+        "cls": "horizontal",
+        "id": "annotated_horizontal_349"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_20"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_29"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_44"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_47"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_63"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_70"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_72"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_78"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_92"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_97"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_104"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_105"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_121"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_139"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_141"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_144"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_147"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_150"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_184"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_187"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_192"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_203"
+      },
+      {
+        "cls": "vertical",
+        "id": "annotated_vertical_230"
+      }
+    ]
+  },
+  "rename_note": "Image IDs normalized to annotated_{class}_{n} on 2026-10-26; train/valid/test membership is unchanged."
+}

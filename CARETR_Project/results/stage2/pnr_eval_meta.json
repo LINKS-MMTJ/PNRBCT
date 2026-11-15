@@ -1,0 +1,32 @@
+{
+  "model": "best_pnr.pth",
+  "date": "2026-10-05 20:07:59",
+  "train_n": 676,
+  "val_n": 85,
+  "loss": "CrossEntropyLoss 2 类 (q=0 有效裂纹格 / q=1 噪声格), 仅在低置信决策集上计算",
+  "prob_limit": 0.85,
+  "best_epoch_val": {
+    "noise_precision": 0.6914,
+    "noise_recall": 0.6292,
+    "noise_f1": 0.6588,
+    "crack_misdetection_precision": 0.3086,
+    "crack_misdetection_recall": 0.2809,
+    "crack_misdetection_f1": 0.2941,
+    "true_crack_removed_%": 14.0449,
+    "grid_acc_before_%": 94.951,
+    "grid_acc_after_%": 95.7108
+  },
+  "full_dataset": {
+    "noise_precision": 0.8491,
+    "noise_recall": 0.824,
+    "noise_f1": 0.8364,
+    "crack_misdetection_precision": 0.1509,
+    "crack_misdetection_recall": 0.1464,
+    "crack_misdetection_f1": 0.1486,
+    "true_crack_removed_%": 7.3209,
+    "grid_acc_before_%": 95.899,
+    "grid_acc_after_%": 97.0899
+  },
+  "balance_decision_set": true,
+  "note": "PNR(8×2×2conv+ReLU + 2 类 MLP 头) 训练目标 = 噪声标签 (Stage1 预测为裂纹 且 真值为非裂纹); 决策集 = 低置信裂纹格(prob<0.85), 高置信格直接保留; dropout 0.3 + wd 5e-3; 最优 epoch 按去噪后网格精度选取"
+}

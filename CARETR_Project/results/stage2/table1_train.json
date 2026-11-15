@@ -1,0 +1,19 @@
+{
+  "split": "train",
+  "n_images": 676,
+  "n_grids": 32448,
+  "n_true_crack": 7746,
+  "n_actionable": 8418,
+  "n_gate": 1214,
+  "n_noise_in_actionable": 982,
+  "n_removed": 609,
+  "noise_precision": 0.8867,
+  "noise_recall": 0.5499,
+  "noise_f1": 0.6788,
+  "crack_mis_precision": 0.1133,
+  "crack_mis_recall": 0.0089,
+  "crack_mis_f1": 0.0165,
+  "true_crack_removed_%": 0.8908,
+  "grid_acc_before_%": 96.0182,
+  "grid_acc_after_%": 97.4698
+}
