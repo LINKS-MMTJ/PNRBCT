@@ -64,12 +64,7 @@ Release assets, because GitHub strongly recommends keeping a Git repository
 below 5 GB. The 845 grid-level annotation JSON files are included in the
 release and are also committed under `CARETR_Project/data/annotations/`.
 
-| Class | Annotated images | End-to-end test images |
-|---|---:|---:|
-| Alligator (`grid`) | 238 | 50 |
-| Transverse (`horizontal`) | 375 | 50 |
-| Longitudinal (`vertical`) | 232 | 50 |
-| **Total** | **845** | **150** |
+
 
 The image-level split is stratified by crack category with a fixed seed (42):
 676 training / 85 validation / 84 test images. The 150 end-to-end test images
