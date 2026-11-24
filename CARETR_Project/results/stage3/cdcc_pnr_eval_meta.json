@@ -1,0 +1,149 @@
+{
+  "model": "cdcc_pnr",
+  "arm": "pnr",
+  "arch": "cdcc",
+  "date": "2026-10-05 20:08:48",
+  "weight": "best_cdcc_pnr.pth",
+  "params": 166187,
+  "input": "48-dim 单通道 6x8 网格图 (论文 Eq.10/11)",
+  "time_per_image_ms": 0.1727,
+  "time_std_ms": 0.0052,
+  "config": {
+    "arm": "pnr",
+    "model": "cdcc",
+    "data_root": "data/cdcc_data",
+    "out_dir": "results/stage3",
+    "batch_size": 64,
+    "epochs": 80,
+    "lr": 0.0003,
+    "val_ratio": 0.2,
+    "conv_kernels": 8,
+    "hidden": 256,
+    "drop": 0.25,
+    "weight_decay": 0.001,
+    "tag_suffix": "",
+    "seed": 42
+  },
+  "results": [
+    {
+      "set": "train",
+      "total": 676,
+      "acc": 98.8166,
+      "per_class_acc": {
+        "grid": 98.4211,
+        "horizontal": 99.3333,
+        "vertical": 98.3871
+      },
+      "confusion_matrix": [
+        [
+          187,
+          2,
+          1
+        ],
+        [
+          2,
+          298,
+          0
+        ],
+        [
+          3,
+          0,
+          183
+        ]
+      ],
+      "classification_report": {
+        "grid": {
+          "precision": 0.9739583333333334,
+          "recall": 0.9842105263157894,
+          "f1-score": 0.9790575916230366,
+          "support": 190.0
+        },
+        "horizontal": {
+          "precision": 0.9933333333333333,
+          "recall": 0.9933333333333333,
+          "f1-score": 0.9933333333333333,
+          "support": 300.0
+        },
+        "vertical": {
+          "precision": 0.9945652173913043,
+          "recall": 0.9838709677419355,
+          "f1-score": 0.9891891891891892,
+          "support": 186.0
+        },
+        "accuracy": 0.9881656804733728,
+        "macro avg": {
+          "precision": 0.9872856280193236,
+          "recall": 0.9871382757970194,
+          "f1-score": 0.9871933713818531,
+          "support": 676.0
+        },
+        "weighted avg": {
+          "precision": 0.9882266475859705,
+          "recall": 0.9881656804733728,
+          "f1-score": 0.988180668043737,
+          "support": 676.0
+        }
+      }
+    },
+    {
+      "set": "valid",
+      "total": 136,
+      "acc": 95.5882,
+      "per_class_acc": {
+        "grid": 93.4783,
+        "horizontal": 98.4375,
+        "vertical": 92.3077
+      },
+      "confusion_matrix": [
+        [
+          43,
+          2,
+          1
+        ],
+        [
+          1,
+          63,
+          0
+        ],
+        [
+          2,
+          0,
+          24
+        ]
+      ],
+      "classification_report": {
+        "grid": {
+          "precision": 0.9347826086956522,
+          "recall": 0.9347826086956522,
+          "f1-score": 0.9347826086956522,
+          "support": 46.0
+        },
+        "horizontal": {
+          "precision": 0.9692307692307692,
+          "recall": 0.984375,
+          "f1-score": 0.9767441860465116,
+          "support": 64.0
+        },
+        "vertical": {
+          "precision": 0.96,
+          "recall": 0.9230769230769231,
+          "f1-score": 0.9411764705882353,
+          "support": 26.0
+        },
+        "accuracy": 0.9558823529411765,
+        "macro avg": {
+          "precision": 0.9546711259754739,
+          "recall": 0.9474115105908586,
+          "f1-score": 0.9509010884434664,
+          "support": 136.0
+        },
+        "weighted avg": {
+          "precision": 0.9558144796380091,
+          "recall": 0.9558823529411765,
+          "f1-score": 0.9557515892814034,
+          "support": 136.0
+        }
+      }
+    }
+  ]
+}

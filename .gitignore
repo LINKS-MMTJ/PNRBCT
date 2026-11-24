@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Raw dataset images (distributed as GitHub Release assets)
+dataset/
+
+# Raw images and generated grids (not distributed in Git)
+CARETR_Project/data/images/
+CARETR_Project/data/grids_448/
+CARETR_Project/data/e2e_grids_448/
+CARETR_Project/data/cdcc_data/
+
+# Local outputs
+/runs/
+_verify_out/
+*.log

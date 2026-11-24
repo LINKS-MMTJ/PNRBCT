@@ -1,0 +1,108 @@
+{
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "date": "2026-10-05 20:13:28",
+  "timing": "torch.cuda.Event, 含预热, 取多次平均",
+  "stages": {
+    "stage1": {
+      "input": "3x448x448 (单个网格图块)",
+      "unit": "网格",
+      "curve": [
+        {
+          "batch": 1,
+          "batch_ms": 7.7486,
+          "per_grid_ms": 7.7486,
+          "grids_per_s": 129.1
+        },
+        {
+          "batch": 8,
+          "batch_ms": 8.2875,
+          "per_grid_ms": 1.0359,
+          "grids_per_s": 965.3
+        },
+        {
+          "batch": 48,
+          "batch_ms": 24.4301,
+          "per_grid_ms": 0.509,
+          "grids_per_s": 1964.8
+        },
+        {
+          "batch": 128,
+          "batch_ms": 74.5085,
+          "per_grid_ms": 0.5821,
+          "grids_per_s": 1717.9
+        },
+        {
+          "batch": 256,
+          "batch_ms": 155.4376,
+          "per_grid_ms": 0.6072,
+          "grids_per_s": 1647.0
+        }
+      ]
+    },
+    "stage2_pnr": {
+      "input": "2x6x8 (一张图的检测矩阵)",
+      "unit": "图",
+      "curve": [
+        {
+          "batch": 1,
+          "batch_ms": 0.0675,
+          "per_image_ms": 0.0675,
+          "per_grid_ms": 0.00141
+        },
+        {
+          "batch": 8,
+          "batch_ms": 0.0621,
+          "per_image_ms": 0.0078,
+          "per_grid_ms": 0.00016
+        },
+        {
+          "batch": 32,
+          "batch_ms": 0.067,
+          "per_image_ms": 0.0021,
+          "per_grid_ms": 4e-05
+        },
+        {
+          "batch": 128,
+          "batch_ms": 0.067,
+          "per_image_ms": 0.0005,
+          "per_grid_ms": 1e-05
+        }
+      ]
+    },
+    "stage3_cdcc": {
+      "input": "48 (一张图的展平网格图)",
+      "unit": "图",
+      "curve": [
+        {
+          "batch": 1,
+          "batch_ms": 0.1416,
+          "per_image_ms": 0.1416,
+          "per_grid_ms": 0.00295
+        },
+        {
+          "batch": 8,
+          "batch_ms": 0.1339,
+          "per_image_ms": 0.0167,
+          "per_grid_ms": 0.00035
+        },
+        {
+          "batch": 32,
+          "batch_ms": 0.1451,
+          "per_image_ms": 0.0045,
+          "per_grid_ms": 9e-05
+        },
+        {
+          "batch": 128,
+          "batch_ms": 0.1455,
+          "per_image_ms": 0.0011,
+          "per_grid_ms": 2e-05
+        }
+      ]
+    }
+  },
+  "end2end": {
+    "per_image_ms": 24.5297,
+    "per_grid_ms": 0.511,
+    "note": "含 48 次 Stage1 前向(未批量化) + PNR + CDCC"
+  }
+}

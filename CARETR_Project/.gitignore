@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Raw data and generated grids (not distributed with the repository)
+data/images/
+data/grids_448/
+data/e2e_grids_448/
+data/cdcc_data/
+
+# Local outputs
+_verify_out/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
